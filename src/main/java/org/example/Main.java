@@ -35,5 +35,8 @@ public class Main {
         System.out.println("Lamp global rating: " + bedroom.getLamp().getGlobRating());
         System.out.println("Ceiling color: " + bedroom.getCeiling().getColor());
         System.out.println("Carpet color: " + bedroom.getCarpet().getColor());
+
+        // GitHub Actions CI'yi tetiklemek için eklenen küçük not
+        System.out.println("Bedroom setup complete.");
     }
 }
